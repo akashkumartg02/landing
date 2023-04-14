@@ -1,0 +1,96 @@
+.main {
+    color: #fff;
+    height: 610px;
+
+    .logo {
+        width: 160px;
+        height: 160px;
+        margin: auto;
+        position: relative;
+
+        .vertical-1 {
+            height: 246px;
+            width: 1px;
+            background: white;
+            position: absolute;
+            left: 31px;
+            top: 1px;
+        }
+
+        .vertical-2 {
+            height: 246px;
+            width: 1px;
+            background: white;
+            position: absolute;
+            left: 55px;
+            top: 1px;
+        }
+
+        .horizontal-1 {
+            height: 1px;
+            width: 264px;
+            background: white;
+            position: absolute;
+            left: -52px;
+            top: 165px;
+        }
+
+        .horizontal-2 {
+            height: 1px;
+            width: 264px;
+            background: white;
+            position: absolute;
+            left: -52px;
+            top: 190px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            margin-top: 35px;
+        }
+    }
+
+    .main-content {
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 400;
+        max-width: 557px;
+        margin: 115px auto 64px;
+        text-align: center;
+    }
+
+    .main-buttons {
+        text-align: center;
+
+        button {
+            min-width: 136px;
+            text-align: center;
+            border-radius: 20px;
+            display: inline-block;
+            font-size: 16px;
+            box-sizing: content-box;
+            transform: translateY(0);
+            box-shadow: 0 0 0 transparent;
+            transition: box-shadow .3s cubic-bezier(.215, .61, .355, 1), transform .3s cubic-bezier(.215, .61, .355, 1);
+            border: 1px solid white;
+            border-radius: 20px;
+            color: white;
+            padding: 6px 0px;
+            text-transform: none;
+        }
+
+        button:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(16, 45, 164, .55);
+        }
+
+        .btn-1 {
+            background-color: white;
+            color: #2f54eb;
+        }
+        .btn-2 {
+            margin-left: 24px;
+        }
+    }
+}

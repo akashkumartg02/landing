@@ -1,0 +1,28 @@
+.modules {
+    background: white;
+    width: 100%;
+
+    .modules-body {
+        padding: 128px 24px;
+        max-width: 1200px;
+        margin: auto;
+
+        h1 {
+            font-size: 32px;
+            line-height: 45px;
+            margin: 0 auto 64px;
+            text-align: center;
+            color: #314659;
+            font-weight: 500;
+        }
+    }
+
+    .modules-box {
+        width: 352px;
+        img{
+            width: 100%;
+            border: 1px solid #ebedf0;
+            border-radius: 4px;
+        }
+    }
+}

@@ -1,0 +1,86 @@
+.features {
+    background: white;
+    width: 100%;
+
+    .features-body {
+        h1 {
+            font-size: 32px;
+            line-height: 45px;
+            margin: 0 auto 64px;
+            text-align: center;
+            color: #314659;
+            font-weight: 500;
+        }
+
+        padding: 128px 24px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .features-link {
+        display: block;
+        width: 180px;
+        margin: auto;
+        text-decoration: none;
+        cursor: pointer;
+
+        .features-card-1 {
+            box-shadow: 0 16px 32px rgba(73, 101, 166, .1);
+            width: 180px;
+            height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            background: #fff;
+            position: relative;
+            z-index: 1;
+            transition: box-shadow .3s cubic-bezier(.215, .61, .355, 1), transform .3s cubic-bezier(.215, .61, .355, 1);
+        }
+        .features-card-1:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 36px rgba(166,55,112,.3);
+        }
+        .features-card-2 {
+            box-shadow: 0 16px 32px rgba(191,188,21,.1);
+            width: 180px;
+            height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            background: #fff;
+            position: relative;
+            z-index: 1;
+            transition: box-shadow .3s cubic-bezier(.215, .61, .355, 1), transform .3s cubic-bezier(.215, .61, .355, 1);
+        }
+        .features-card-2:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 36px rgba(191,188,21,.3);
+        }
+        .features-card-3 {
+            box-shadow: 0 16px 32px rgba(73,101,166,.1);
+            width: 180px;
+            height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            background: #fff;
+            position: relative;
+            z-index: 1;
+            transition: box-shadow .3s cubic-bezier(.215, .61, .355, 1), transform .3s cubic-bezier(.215, .61, .355, 1);
+        }
+        .features-card-3:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 36px rgba(73,101,166,.3);
+        }
+
+        p {
+            margin-top: 56px;
+            font-size: 20px;
+            color: #0d1a26;
+            text-align: center;
+        }
+    }
+}

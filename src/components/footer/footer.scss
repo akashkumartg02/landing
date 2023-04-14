@@ -1,0 +1,100 @@
+.sub-footer {
+    padding: 128px 24px;
+    max-width: 1200px;
+    margin: auto;
+
+    p {
+        margin: 0 auto 40px;
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 930px;
+        text-align: center;
+        color: white;
+    }
+
+    button {
+        background: #fff;
+        transform: translateY(0);
+        transition: box-shadow .3s cubic-bezier(.215, .61, .355, 1), transform .3s cubic-bezier(.215, .61, .355, 1);
+        box-shadow: 0 4px 8px rgba(0, 40, 202, .75);
+        min-width: 130px;
+        text-align: center;
+        border-radius: 20px;
+        display: block;
+        font-size: 16px;
+        box-sizing: content-box;
+        text-transform: none;
+        margin: auto;
+    }
+
+    button:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 16px rgba(0, 40, 202, .55);
+        background: white;
+    }
+}
+
+.footer {
+    clear: both;
+    font-size: 14px;
+    background-color: #000;
+    position: relative;
+    z-index: 100;
+    color: rgba(255, 255, 255, .65);
+    box-shadow: 0 1000px 0 1000px #fff;
+
+    .footer-body {
+        width: 100%;
+        position: relative;
+        padding: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, .25);
+
+        .grid {
+            width: 100%;
+            max-width: 1200px;
+            padding: 86px 24px 93px;
+            margin: auto;
+
+            .footer-content {
+                display: inline-block;
+                text-align: left;
+                padding: 0 60px;
+
+                h3 {
+                    font-size: 16px;
+                    margin: 0 auto 24px;
+                    font-weight: 500;
+                    position: relative;
+                    color: white;
+                }
+
+                p {
+                    margin: 12px 0;
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        margin: auto;
+        max-width: 1200px;
+        padding: 16px 24px;
+        border-top: none;
+        text-align: center;
+
+        span {
+            font-size: 14px !important;
+        }
+
+        .heart {
+            color: #f73f51;
+            font-size: 22px;
+            padding: 0 5px;
+        }
+
+        a {
+            color: #ffffffa6;
+            text-decoration: none;
+        }
+    }
+}
