@@ -8,7 +8,7 @@ import { CmdKConfigurer } from '@cmdk/stage-toolkit';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CmdKConfigurer token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmdJZCI6IjIiLCJ1c2VySWQiOiIyIiwiaWF0IjoxNjkxNTc5Mzc0LCJleHAiOjE2OTIxODQxNzR9.gEiWdP99eqvQn-CpW0d3QUZguiS3O_3hmkUL54qLKAg'>
+    <CmdKConfigurer token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmdJZCI6IjIiLCJ1c2VySWQiOiIyIiwiaWF0IjoxNjkxNjY1NTM3LCJleHAiOjE2OTIyNzAzMzd9.cXymkKaTq3KzOtepP2WRk75ToZZS733Agx523wtkpWE'>
       <App />
     </CmdKConfigurer>
   </React.StrictMode>
