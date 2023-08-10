@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { CmdKConfigurer } from '@cmdk/react-ui-toolkit';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <CmdKConfigurer token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmdJZCI6IjIiLCJ1c2VySWQiOiIyIiwiaWF0IjoxNjkxNTc5Mzc0LCJleHAiOjE2OTIxODQxNzR9.gEiWdP99eqvQn-CpW0d3QUZguiS3O_3hmkUL54qLKAg'>
+      <App />
+    </CmdKConfigurer>
   </React.StrictMode>
 );
 
