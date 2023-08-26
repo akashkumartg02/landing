@@ -8,7 +8,7 @@ import { CmdKConfigurer } from '@cmdk/stage-toolkit';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CmdKConfigurer token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmdJZCI6IjEiLCJ1c2VySWQiOiIxIiwiZG9tYWluIjoiWmpKa09HRm1aRGs1WkRJeFpqTTFZell3WTJZMllUVmhNR1JtWkRjMFlqTTBaREE1TldJeFpXRmxNRGRtTjJVMk5qSTFNelptTkRRNFlXUXpPRFJsWVE9PSIsImlhdCI6MTY5MzA1NDQxMCwiZXhwIjoxNjkzNjU5MjEwfQ.iFf1CnDk5x9XhDCsJepCZj-n_4M6kwMrDWqOxHMxku4'>
+    <CmdKConfigurer token='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcmdJZCI6IjIiLCJ1c2VySWQiOiIyIiwiZG9tYWluIjoiWXpSbU56WTNPV1ZrTWpNMVl6YzNNV1ZsTVRBeFpUQXhNV0ZtWlRRek5tRTJOV1JoTkRVek9EWTNObVEwWW1aa01XVXpZell3WVRZM1pERTFPVGRsWlE9PSIsImlhdCI6MTY5MzA1NDczOCwiZXhwIjoxNjkzNjU5NTM4fQ.0tUwi6voEZfCkqMefMNkEB_jpMP5Dr-y05T2YZChiYU'>
       <App />
     </CmdKConfigurer>
   </React.StrictMode>
